@@ -16,8 +16,11 @@ Essentially this works in 4 phases.
 ```
 var hashtags = ["#surf", "#surfing", "#surfreport", "#surfforecast" ,"#surfsup"];
 ```
+
 2) Get the geolocations of those via twitter or guessing based on known surf destinations (although the beaches.js file is a big guess based on the google maps api and could be much improved)
+
 3) Get the sentiment of the tweet based on a tweaked use of https://github.com/thisandagain/sentiment. See sentiments.js for tweaks.
+
 4) Plot the points based on location on a 3D D3 (yes that's right). Red is bad sentiment, green is good and the inital size is the weight of the tweet. 
 
 Improvements include:
