@@ -1,0 +1,12 @@
+{
+  "name": "devwax",
+  "version": "0.0.1",
+  "description": "Coding, Surfing and Rock and Roll",
+  "dependencies": {
+  	"express": "~4.9.x",
+  	"underscore": "^1.7.0",
+		"sentiment": "^1.0.2",
+		"twit": "^1.1.18",
+    "socket.io": "^1.1.0"
+  }
+}

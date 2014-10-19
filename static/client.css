@@ -1,0 +1,52 @@
+
+#globe{
+  background: #fcfcfa;
+}
+ 
+.stroke {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3px;
+}
+ 
+.fill {
+  fill: #fff;
+}
+ 
+.graticule {
+  fill: none;
+  stroke: #777;
+  stroke-width: .5px;
+  stroke-opacity: .5;
+}
+ 
+.land {
+  fill: #222;
+}
+ 
+.boundary {
+  fill: none;
+  stroke: #fff;
+  stroke-width: .5px;
+}
+ 
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+ 
+.tweet-bad {
+  fill: rgba(255,100,100,0.5);
+  stroke: rgba(150,50,50,0.5);;
+  stroke-width: 2px;
+}
+.tweet-good {
+  fill: rgba(92,184,92,0.5);
+  stroke: rgba(5,98,5,0.5);;
+  stroke-width: 2px;
+}
+.tweet-average {
+  fill: rgba(248,231,28,0.5);
+  stroke: rgba(245,166,35,0.5);;
+  stroke-width: 2px;
+}
